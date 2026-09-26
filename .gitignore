@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+*.crdownload
+*.tmp
 
 # Editor directories and files
 .vscode/*

@@ -1,11 +1,5 @@
 import { useState } from 'react'
-
-const imageModules = import.meta.glob('../assets/images/*.{jpg,jpeg,png,webp}', {
-  eager: true,
-  import: 'default',
-})
-
-const profileImg = imageModules['../assets/images/profile.jpg']
+import profileImg from '../assets/images/profile.jpg'
 
 const heroBadges = [
   'AI Engineer @ Cybertech JSC',
